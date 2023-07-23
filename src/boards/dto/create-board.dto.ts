@@ -1,9 +1,9 @@
 import { IsNotEmpty } from "class-validator";
 
-export class BoardRequestDto {
+export class CreateBoardDto {
     @IsNotEmpty()
-    title: String;
+    title: string;
 
     @IsNotEmpty()
-    description: String;
+    description: string;
 }
